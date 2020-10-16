@@ -47,9 +47,6 @@ var fixPrinter = function() {
         break;
  }
  
- $("output").value = string.Output;
- 
-
 window.onload = function () {
     $("troubleshoot").onclick = fixPrinter;
 };

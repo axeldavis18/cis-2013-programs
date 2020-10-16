@@ -2,7 +2,8 @@ var $ = function (id) {
     return document.getElementById(id);
 };
 
-var fixPrinter = function() {
+var fixPrinter = function() 
+{
     var stringOutput = "";  //declares stringOutput inital value to be blank
 
     //define the individual troubleshooting tips per the chart
@@ -46,7 +47,7 @@ var fixPrinter = function() {
         stringOutput = stringMessage6;
         break;
  }
- 
+}
 window.onload = function () {
     $("troubleshoot").onclick = fixPrinter;
 };

@@ -47,7 +47,7 @@ var fixPrinter = function()
         stringOutput = stringMessage6;
         break;
  }
-}
+};
 window.onload = function () {
     $("troubleshoot").onclick = fixPrinter;
 };
